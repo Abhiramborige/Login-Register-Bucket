@@ -1,0 +1,36 @@
+GET http://localhost:3000/users
+
+###
+
+POST http://localhost:3000/register-user
+Content-Type: application/json
+
+{
+  "name":"Abhiram",
+  "password":"password"
+}
+
+###
+
+POST http://localhost:3000/login-user
+Content-Type: application/json
+
+{
+  "name":"Abhiram",
+  "password":"password"
+}
+
+###
+
+POST http://localhost:3000/logout
+
+
+###
+
+POST http://localhost:3000/submit-bucket
+Content-Type: application/json
+
+{
+  "bucketname":"hello1",
+  "bucketdata":"hello1"
+}
