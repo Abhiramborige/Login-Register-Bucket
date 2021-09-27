@@ -19,6 +19,7 @@ Took help from:
 ```
 git clone https://github.com/Abhiramborige/Login-Register-Bucket.git
 cd Login-Register-Bucket
+npm init // to install dependencies(express, mongoose, nodemon)
 npm start // to start the express-mongo server
 Open "index.html" using live server from VS Code.
 ```
